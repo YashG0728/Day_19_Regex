@@ -28,5 +28,3 @@ public class Email {
         System.out.println(email + " " + ">>>" + " " + "[" + "Invalid EmailId" + "]");
     }
 }
-
-// Pattern pattern = Pattern.compile("^[a-zA-Z0-9,.,+,-]{2,}[@]{1}[a-z,]{3,}[.][a-z,.]{1,}[a-z]{1,}+$");
