@@ -12,7 +12,7 @@ public class PassWord {
         }
     }
     private static void validatePassWord(String passWords) {
-        Pattern pattern = Pattern.compile("^[a-zA-z0-9]{8,}");
+        Pattern pattern = Pattern.compile("^[a-zA-z0-9]{8,}"); //^[0-z]{8,}$
 
         Matcher matcher = pattern.matcher(passWords);
 
